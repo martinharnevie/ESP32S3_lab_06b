@@ -190,7 +190,7 @@ void handleSerialInput(uint32_t aInterval) {
     } else if (inputString == "off") {
       showAsciiB = false;
     } else {
-      
+      // do nothing
     }
   }
   inputString = "";
